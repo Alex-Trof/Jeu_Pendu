@@ -1,0 +1,6 @@
+.Pendu > .letter {
+    font-size: 3em;
+    font-family: Menlo, Monaco, Consolas, Inconsolata;
+    padding: 10px;
+    margin: auto;
+}
