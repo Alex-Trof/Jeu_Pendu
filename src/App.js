@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Letter from './Letter';
 import Keyboard from './Keyboard';
 import Counter from './Counter';
+import PlayerName from './PlayerName';
 
 const WORDS = ['ORANGE','OIGNON','AVION','SALADE'];
 const KEYBOARD = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
@@ -200,6 +201,8 @@ focusPrincipal() {
         <button className="Victory" id='victoryButton' onClick={ (e) => this.handleButtonVictoryClick(e) } >
           You Win ! 
         </button>
+
+        <PlayerName/>
 
         <Counter ref={ref => (this.counter = ref )}/>
 
