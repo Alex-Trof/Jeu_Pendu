@@ -1,4 +1,4 @@
-# **Jeu_Pendu**
+# **Jeu du Pendu**
 
 ## **What is it ?**
   This is a little game made with React, where you could play at Hangman.
